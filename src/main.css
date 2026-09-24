@@ -1,0 +1,224 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    color: inherit;
+   background-color: white;
+   border: none;
+   cursor: pointer;
+}
+.logo{
+    height: 100px;
+}
+nav{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 16px;
+}
+.nav-links li{
+    transition: all 0.3s ease;
+}
+.nav-links li:hover{
+    transform: translateY(-5px);
+    color: green;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links a:hover{
+    transition: all 0.3s ease-in-out;
+    color: green;
+}
+
+.get-in-touch{
+    font-weight: 600;
+    color: green;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid green;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+.get-in-touch:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: green;
+    color: white;
+}
+
+/*** Hero Section */
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 100px 100px;
+}
+
+
+.socials button{
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.socials button img{
+    height: 40px;
+}
+
+.interactive-card {
+    position: relative;
+    width: 420px;
+    height: 540px;
+    margin: 50px auto;
+    border-radius: 35px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.087);
+
+    /* Creates the slight overall rotation */
+    transform: rotate(-4deg); 
+}
+
+
+/* green background*/
+.card-green-bg {
+    position: absolute;
+
+    width: 100%;
+    height: 90%;
+
+    background: #0b8f0b;
+
+    border-radius:  35px 35px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.087);
+
+    left: -70px;
+    top: 40px;
+
+    z-index: 0;
+    transform: rotate(16deg); 
+} 
+/* white card */
+.card-content {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    background: #f5f2f2;
+
+    border-radius:  35px 35px;
+
+    overflow: hidden;
+
+    display: flex;
+
+    z-index: 2;
+
+    box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.08);
+}
+/* card content */
+.card-text {
+    width: 52%;
+
+    padding-left: 38px;
+    padding-top: 185px;
+
+    z-index: 3;
+}
+
+.card-title {
+    margin: 0;
+
+    font-family: poppins, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 0.95;
+
+    color: #050505;
+}
+
+.title-line {
+    width: 35px;
+    height: 5px;
+
+    background: #0b8f0b;
+
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.card-description {
+    margin: 0;
+
+    font-family: poppins, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.15;
+
+    color: #050505;
+}
+
+/* card image */
+.card-image-container {
+    position: relative;
+
+    width: 48%;
+    height: 100%;
+
+    overflow: hidden;
+}
+
+
+/* Portrait */
+
+.card-image {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 72%;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    display: block;
+}
+/*card logo*/
+.card-logo {
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 28%;
+
+    background: #0b8f0b;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-logo img {
+    width: 65%;
+    max-width: 120px;
+
+    height: auto;
+}
