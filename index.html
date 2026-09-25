@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="src/main.css">
+    
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <img class="logo" alt="Logo" src="assets/images/logo.png" class="logo">
+            <img class="logo" alt="Logo" src="assets/images/logo_black.png" class="logo">
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">work</a></li>
@@ -18,30 +19,36 @@
             <button class="get-in-touch">get in touch</button>
         </nav>
     </header>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Designer & &lt;/Developer&gt;</h1>
-            <p>UX/UI designer & Web developer </p>
-            <p>I design and build digital experiences that are functional, user-friendly and built with purpose.</p>
-            <div class="buttons">
-                <button class="view-work">view work</button>
-                <button>download CV</button>  
+    <section>
+        <div class="hero">
+            <div class="hero-content">
+            <h1 class="hero-title"> <div class="hero-title-text"><i class="hero-title-p">Designer</i><p>&</p></div>
+                <p> &lt;/Developer&gt;</p></h1>
+                <div class="hero-line"></div>
+                <div class="hero-description">
+                     <p class="headline">UX/UI designer & Web developer </p>
+                    <p>I design and build digital experiences that are functional, user-friendly and built with purpose.</p>
+                </div>
+           
+            <div class="hero-buttons">
+                <button class="get-in-touch">view work</button>
+                <button class="get-in-touch">download CV</button>  
             </div>
-            <strong>Lets connect</strong>
+            <p class="headline">Lets connect</p>
             <div class="socials"> 
                 <button><img src="assets/icons/linkedin.png" alt="LinkedIn"></button>
                 <button><img src="assets/icons/github.png" alt="GitHub"></button>
                 <button><img src="assets/icons/instagram.png" alt="Instagram"></button>
                 <button><img src="assets/icons/email.png" alt="email"></button>
             </div>
-        </div>
+            </div>
         <div class="interactive-card">
 
     <!-- Green background layer -->
     <div class="card-green-bg"></div>
 
     <!-- Main white card -->
-    <div class="card-content" data-tilt  data-tilt-glare data-tilt-max-glare="0.3" data-tilt-scale="1.1">
+    <div class="card-content" data-tilt  data-tilt-glare data-tilt-max-glare="0.5" data-tilt-scale="1.1">
 
         <div class="card-text">
             <p class="card-title">
@@ -73,15 +80,45 @@
         </div>
 
     </div>
+        </div> 
+
         </div>
+        
+        <!-- <div class="scroll-down">
+            <p>Scroll down</p>
+        </div> -->
     </section>
-    <section class="about">
-        <h2>About Me</h2>
-        <p>This is the about section.</p>
+    <section class="about-section">
+        <div class="about-content">
+            <div>
+                <span class="bullet">About Me</span>
+            <h2 class="section-title">
+                 <i>Designing with</i> <highlight>empathy</highlight>.
+            </h2>
+            <h2 class="section-title">
+                 <i>Designing with</i>  <highlight>logic</highlight>.
+            </h2>
+            </div>
+            
+            <div class="about-description">
+                <p class="description">
+                    I’m a Experience design student with that view importance in creating clean, intuitive and impactfull digital products. i combine creativity with code to turn ideas into real  experiences. My slogan “less is  more”
+                </p>
+            </div>
+        </div>
+        
+        <div>
+
+        </div>
+
     </section>
-    <section class="skills">
-        <h2>My Skills</h2>
-        <p>This is the skills section.</p>
+    <section class="skills-section">
+    
+        <div class="skills-content">
+            <span class="bullet">My Skills</span>
+            <h2 class="section-title">My Skills, packaged for impact.  </h2>
+        </div>
+        
     </section>
     <section class="projects">
         <h2>My Projects</h2>
@@ -90,7 +127,8 @@
     <footer>
         <p>&copy; 2024 My Website. All rights reserved.</p>
     </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
-   
+    <script type="module" src="src/js/main.js"></script>
 </body>
 </html>
