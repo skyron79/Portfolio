@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "malukayi cosmetics",
+            "description": "a pet project. I was asked to design a website for a cosmetics company. I created a responsive and visually appealing website that showcases their products and services.",
+            "image": "../../assets/projects/malukayi.png",
+            "status": "in progress", 
+            "categories": ["web design", "UI/UX design", "responsive design"]
+        },
+        {
+            "id": 2,
+            "name": "flappy bird clone",
+            "description": "we redesigned the classic game flappy bird. we made it more fun and engaging for players and added a multiplayer mode.",
+            "image": "../../assets/projects/flappy_bird_clone.png",
+            "status": "completed",
+            "categories": ["game development"]
+        },
+        {
+            "id": 3,
+            "name": "Carevoice App",
+            "description": "**CareVoice** is an AI-powered reporting assistant designed to reduce the administrative workload for nurses. My UX/UI mission was to create a simple, intuitive experience that helps nurses quickly create, review, and send medical reports while keeping them in control of the process.",
+            "image": "../../assets/projects/carevoice.png",
+            "status": "completed",
+            "categories": ["UI/UX design", "mobile app design"]
+        }
+    ]
+}
