@@ -12,11 +12,10 @@
 <body>
     <header>
         <nav class="navbar">
-            <img class="logo" alt="Logo" src="assets/images/logo_black.png" class="logo">
+            <a href="#home"><img class="logo" alt="Logo" src="assets/images/logo_black.png" class="logo"></a>
+            
            <ul class="nav-links">
-                <li><a class="active" href="#home">Home</a></li>
                 <li><a  href="#about">About</a></li>
-                <li><a  href="#skills">Skills</a></li>
                 <li><a  href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul >
@@ -24,6 +23,11 @@
         </nav>
     </header>
     <section id="home" class="hero-section">
+        <div
+    class="absolute inset-0 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] bg-size-[16px_16px]"
+        >
+    
+    </div>
 
     <div class="hero">
 
@@ -31,13 +35,15 @@
         <div class="hero-content">
 
             <div class="hero-image-container">
-
-            <img src="assets/images/tyron_2.jpeg" alt="Tyron Zinga" class="hero-image">
-            
+                <img 
+                    src="assets/images/tyron_2.jpeg" 
+                    alt="Tyron Zinga" 
+                    class="hero-image"
+                >
             </div>
 
             <div class="hero-description">
-                <p class="headline">UX/UI designer & Web developer.</p>
+                <h2>HI, I'm Tyron</h2>
 
                 <p>
                     I design and build digital experiences that are functional,
@@ -47,34 +53,59 @@
 
             <div class="hero-buttons">
                 <button class="get-in-touch">view work</button>
-                <button class="get-in-touch">download CV</button>
+                <a class="get-in-touch" a href="./src/data/cv tyron.pdf" download>download CV</a>
             </div>
 
-            <p class="headline">Lets connect</p>
-
-            <div class="socials">
-                <button>
-                    <img src="assets/icons/linkedin.png" alt="LinkedIn">
-                </button>
-
-                <button>
-                    <img src="assets/icons/github.png" alt="GitHub">
-                </button>
-
-                <button>
-                    <img src="assets/icons/instagram.png" alt="Instagram">
-                </button>
-
-                <button>
-                    <img src="assets/icons/email.png" alt="Email">
-                </button>
-            </div>
 
         </div>
 
+
+        <!-- Matter.js skill area -->
+        <div class="physics-area">
+
+            <div class="skill-pill">Figma</div>
+
+            <div class="skill-pill green">
+                UI Design
+            </div>
+
+            <div class="skill-pill">
+                Web Development
+            </div>
+
+            <div class="skill-pill green">
+                React
+            </div>
+
+            <div class="skill-pill">
+                UX Research
+            </div>
+
+            <div class="skill-pill">
+                Motion Graphics
+            </div>
+
+            <div class="skill-pill green">
+                Branding
+            </div>
+
+            <div class="skill-pill">
+                Video Editing
+            </div>
+
+            <div class="skill-pill">
+                HTML
+            </div>
+
+            <div class="skill-pill">
+                css
+            </div>
+        </div>
+
+
         <!-- Bottom title -->
         <h1 class="hero-title">
-            <span id="typing-text"></span>
+            <span id="hero-title-text"> UX / UI  Designer</span>
         </h1>
 
     </div>
@@ -126,14 +157,12 @@
 
         
         <div class="about-section">
-        <div class="about-content">
+          <div class="about-content">
             <div>
-                <span class="bullet">About Me</span>
+                <span class="bullet">01 / About</span>
             <h2 class="section-title">
-                 <i>Designing with</i> <highlight>empathy</highlight>.
-            </h2>
-            <h2 class="section-title">
-                 <i>Designing with</i>  <highlight>logic</highlight>.
+                  Curious by nature. </br>
+                  Built to make things work and fancy.
             </h2>
             </div>
             
@@ -141,78 +170,39 @@
                 <p class="description">
                     I’m a Experience design student with that view importance in creating clean, intuitive and impactfull digital products. i combine creativity with code to turn ideas into real  experiences. My slogan “less is  more”
                 </p>
-            </div>
-        </div>
+                </div>
+                </div>
         
-            <div class="icon-container">
-            <div>
-                <span class="icon">
-                <img src="assets/icons/Graduation-Hat.png" alt="Arrow Down">
-                <p class="headline">Education</p>
-                </span>
-                <p class="icon-description"> Thomas More University of Applied Sciences </p>
-            </div>
+                <div class="icon-container">
+                    <div class="icon-item">
+                    <span class="icon">
+                    <img src="assets/icons/Graduation-Hat.png" alt="Arrow Down">
+    
+                    </span>
+                    <p class="icon-description"> Experience design student </p>
+                </div>
             
-            <div>
+            <div class="icon-item">
                 <span class="icon">
                 <img src="assets/icons/Pin-Location.png" alt="Arrow Down">
-                <p class="headline">Location</p>
                 </span>
-                <p class="icon-description"> Brussels, Belgium </p>
+                <p class="icon-description"> Brussels, </br> Belgium </p>
             </div>
 
-            <div>
+            <div class="icon-item">
                 <span class="icon">
                 <img src="assets/icons/calendar.png" alt="Arrow Down">
-                <p class="headline">Availability</p>
                 </span>
                 <p class="icon-description"> Open for internships </p>
             </div>
-
-            <div>
-                <span class="icon">
-                <img src="assets/icons/Time-Clock.png" alt="Arrow Down">
-                <p class="headline">Response Time</p>
-                </span>
-                <p class="icon-description"> Typically within 24 hours </p>
-            </div>
-            </div>
+        </div>
         
 
     </section>
-    <section  id="skills" class="skills-section">
-    
-        <div class="skills-content">
-            <span class="bullet">My Skills</span>
-            <h2 class="section-title">My Skills, packaged for impact.  </h2>
-            <p> A mix of design thinking and technical skills that help me create smooth and effective experiences. </p>
-        </div>
 
-        <div id="skill-list-container">
-
-            <div class="object"> 
-                <span class="skill-pill">Design</span> 
-            </div>
-            <div class="object"> 
-                <span class="skill-pill">Development</span> 
-            </div>
-            <div class="object"> 
-                <span class="skill-pill">UI/UX</span> 
-            </div>
-            <div class="object"> 
-                <span class="skill-pill">Web</span> 
-            </div>
-            <div class="object"> 
-                <span class="skill-pill">Mobile</span> 
-            </div>
-           
-        </div>
-        
-        
-    </section>
     <section id="projects" class="projects">
-         <span class="bullet">featured work</span>
-            <h2>Some projects i've worked on</h2>
+         <span class="bullet"> 02 / featured work</span>
+            <h2 class="section-title"> A Few Things I've worked on</h2>
 
             <div class="container">
 
@@ -247,6 +237,45 @@
             </div>
             
     </section>
+
+    <section id="contact" class="contact">
+        <span class="bullet">03 / get in touch</span>
+        <h2 class="section-title">Have something in mind? </br>
+            <span class="highlight">Lets make it real! </span>
+        </h2>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <p class="brief-intro">
+                    I'm always open to new opportunities and exciting projects. 
+                    If you have a project in mind or just want to say hello, feel free to reach out!
+                </p>
+
+                 <div class="socials">
+                <button>
+                    <img src="assets/icons/linkedin.png" alt="LinkedIn">
+                </button>
+
+                <button>
+                    <img src="assets/icons/github.png" alt="GitHub">
+                </button>
+
+                <button>
+                    <img src="assets/icons/instagram.png" alt="Instagram">
+                </button>
+
+                <button>
+                    <img src="assets/icons/email.png" alt="Email">
+                </button>
+            </div>
+
+        </div>
+
+               
+            </div>
+        </div>
+    </section>
+
     <footer>
          <div class="footer-container">
 
@@ -292,9 +321,10 @@
     </div>
         
     </footer>
-
+    <script src="./src/js/main.js" type="module"></script>
+    <script src="./src/js/projects.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.20.0/matter.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+    
 </body>
 </html>
