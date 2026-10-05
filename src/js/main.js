@@ -55,6 +55,19 @@ const pillBodies = [];
 // CREATE PILLS
 // =========================
 
+const skills = [
+    "UX/UI",
+    "Figma",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "GSAP",
+    "Motion Design",
+    "Web Development"
+];
+
+
 pills.forEach((pill, index) => {
 
     const width = pill.offsetWidth;

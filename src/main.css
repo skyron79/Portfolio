@@ -1,6 +1,6 @@
 @font-face {
-    font-family: poetsenOne;
-    src: url('../assets/fonts/PoetsenOne-Regular.ttf') format('truetype');
+    font-family: Satoshi;
+    src: url('../assets/fonts/Satoshi-Black.otf') format('opentype');
 
 }
 
@@ -114,14 +114,14 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 20px 20px;
-    border: 1px solid #c7f0b5;
+    border: 1px solid #c7f0b5; */
     
 }
 .navbar{
-    position: fixed;
-    width: 90%;
+    /* position: fixed; */
+    width: 100%;
     left: 5%;
     height: 5em;
     display: flex;
@@ -131,9 +131,9 @@ nav{
 }
 .nav-links{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     list-style: none;
-    font-size: 16px;
+
 }
 .nav-links li{
     transition: all 0.3s ease;
@@ -144,7 +144,10 @@ nav{
 }
 .nav-links a{
     text-decoration: none;
-    color: black;
+    color: rgb(97, 94, 94);
+    font-family: Satoshi, sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
 }
 .nav-links a:hover{
     transition: all 0.3s ease-in-out;
@@ -352,7 +355,7 @@ Hero Section
 
     font-size: 10vw;
     font-weight: 800;
-    font-family: poppins, sans-serif;
+    font-family: Satoshi, sans-serif;
     line-height: 0.95;
     letter-spacing: -0.06em;
     word-spacing: -0.1em;
@@ -390,6 +393,7 @@ Hero Section
     height: 450px;
     margin: auto;
     border-radius: 35px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -401,7 +405,7 @@ Hero Section
     width: 100%;
     height: 90%;
 
-    
+    background: #00e676;
 
     border-radius:  35px 35px;
 
@@ -412,7 +416,7 @@ Hero Section
     transform: rotate(16deg); 
 
     position: absolute;
-    border: 4px solid #def8d3;;
+    border: 2px solid black;
     border-radius: 30px;
     overflow: hidden;
 }
@@ -424,7 +428,7 @@ Hero Section
 
     transform: translateY(-50%) rotate(-90deg);
 
-    color: #def8d3;;
+    color: black;
     font-size: 60px;
     font-weight: 700;
     font-family: poppins, sans-serif;
@@ -442,6 +446,8 @@ white card
     height: 100%;
 
     background: #f5f2f2;
+    border: 2px solid black;
+
 
     border-radius:  35px 35px;
 
@@ -604,8 +610,18 @@ about-section
     display: flex;
     justify-content:justify;
     align-items: center;
+    animation: fadeIn 1s ease-in-out;
+ 
+}
 
-    
+@keyframes fadeIn {
+    0% { 
+        opacity: 0;
+        transform: translateY(30px);
+     }
+    100% { opacity: 1;
+        transform: translateY(0);
+     }
 }
 
 .about-section{
@@ -627,16 +643,17 @@ about-section
     font-size: 2em;
     font-weight: 600;
 }
-.section-title highlight{
-    color: green;
-}
+
+
 .description{
-    margin-top: 20px;
+    margin-top: 40px;
     font-family: poppins,  sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.5;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 2em;
     width: 600px;
+    color: #4f4c4c;
+    
 }
 .icon-container{
     display: flex;
@@ -703,6 +720,8 @@ about-section
 }
 
 
+
+
 /* =========================
 Projects Section
 ========================= */
@@ -733,8 +752,15 @@ Projects Section
   color: #111;
   background: #fff;
   border-radius: 30px;
-  box-shadow: 0 3px 5px rgb(0 0 0 / 24%);
+  border: 2px solid black;
+  box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.08);
   font-family: "Poppins", sans-serif;
+  animation: translateY(0) 0.5s ease-in-out;
+
+}
+.projects-container:hover{
+  transform: translateY(-10px) translateX(-2px);
+  transition: all 0.5s ease-in-out;
 }
 
 .project-image {
@@ -747,20 +773,6 @@ Projects Section
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.project-image :hover {
-  transform: scale(1.1);
-  transition: all 0.5s ease-in-out;
-}
-
- @keyframes scaleUp {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.1);
-  }
 }
 
 .projects-container > div:nth-child(2) {
@@ -800,7 +812,10 @@ Projects Section
 ========================= */
 
 .contact{
-    padding: 50px 100px;
+    padding: 50px 0px 0px 100px;
+    background-color: white;
+    border-radius:80px 80px 0 0;
+    border: 1px solid #c7f0b5;
 } 
 .highlight{
     color: #a5e889;
@@ -865,6 +880,15 @@ Footer
     padding: 0 10px;
 }
 
+.brief-intro{
+    font-family: poppins,  sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 2em;
+    width: 600px;
+    color: #4f4c4c;
+}
+
 /* =========================
    LOGO
 ========================= */
@@ -893,7 +917,7 @@ Footer
 
     border-right: 1px solid #d9d9d9;
 
-    padding: 30px 40px 30px 0; 
+    padding: 30px 40px 40px 0; 
 }
 
 .footer-intro h3,
@@ -945,6 +969,10 @@ Footer
     transform: translateY(-5px);
     color: #a5e889;
 }
+.contact-container{
+    padding: 30px 0 30px 0;
+    
+}
 
 
 /* =========================
@@ -988,3 +1016,32 @@ footer p{
     width: 100%;
 }
 
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+   
+}
+.footer-bottom a{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #666;
+    width: 100%;
+    
+}
+.footer-bottom a:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    color: green;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    min-height: 155px;
+
+    padding-top: 50px ;
+}
