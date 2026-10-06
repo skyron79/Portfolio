@@ -207,7 +207,7 @@ Hero Section
 .hero-content {
     position: relative;
     z-index: 10;
-    width: 50%;
+    width: 80%;
     padding-left: 100px;
     margin-right: 60vw;
 }
@@ -233,8 +233,9 @@ Hero Section
 }
 
 .hero-description p {
-    padding: 20px 0;
-    width: 75%;
+    padding: 20px 0 ;
+    color: #4f4c4c;
+    font-weight: 400;
 }
 .hero-description h2 {
   font-size: 2em;
@@ -346,7 +347,7 @@ Hero Section
 
 .hero-title {
     position: absolute;
-    bottom: -20px;
+    bottom: -15px;
   
 
     width: 100%;
@@ -491,7 +492,7 @@ white card
 card content 
  =========================*/
 .card-text {
-    width: 52%;
+    width: 55%;
 
     padding-left: 38px;
     padding-top: 185px;
@@ -528,6 +529,7 @@ card content
 
 .card-description {
     margin: 0;
+    padding-top: 15px;
 
     font-family: poppins, Helvetica, sans-serif;
     font-size: 15px;
@@ -604,7 +606,6 @@ about-section
  =========================*/
 
 .about{
-   
     
     height: 100vh;
     display: flex;
