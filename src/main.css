@@ -65,12 +65,17 @@ html {
    scroll-behavior: smooth;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 body{
    
     overflow-x: hidden;
-
-    background-image: linear-gradient(rgba(0, 255, 0, 0.128) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 255, 0, 0.055) .1em, transparent .1em);
-    background-size: 3em 3em;
+    background-color: #00e676
+    /* background-image: linear-gradient(rgba(0, 255, 0, 0.128) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 255, 0, 0.055) .1em, transparent .1em);
+    background-size: 3em 3em; */
   
 }
 
@@ -84,7 +89,7 @@ body{
   background: green;
 }
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: white;
 }
 
 /* =========================
@@ -183,6 +188,9 @@ Hero Section
     height: 100vh;
     
     overflow: hidden;
+    background-color: white;
+    /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08); */
+    
 }
 
 
@@ -196,7 +204,8 @@ Hero Section
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
+   
 }
 
 
@@ -379,8 +388,12 @@ Hero Section
     width: 80px;
     height: 80px;
 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     border: 10px solid rgba(154, 151, 151, 0.075);   
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.443));
+    
     
 }
 .hero-image-container img{
@@ -606,23 +619,16 @@ about-section
  =========================*/
 
 .about{
-    
+    z-index: 10;
     height: 100vh;
     display: flex;
-    justify-content:justify;
     align-items: center;
-    animation: fadeIn 1s ease-in-out;
- 
-}
+    background-color: white;
+    border-radius: 0 0 80px 80px ;
 
-@keyframes fadeIn {
-    0% { 
-        opacity: 0;
-        transform: translateY(30px);
-     }
-    100% { opacity: 1;
-        transform: translateY(0);
-     }
+     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.139);
+ 
+
 }
 
 .about-section{
@@ -630,6 +636,7 @@ about-section
   
     border-radius: 40px;
     width: 50%;
+    
 }
 
 
@@ -701,7 +708,7 @@ about-section
 
 }
 
-@media (max-width: 1032px) {
+@media (max-width: 732px) {
     .about-section{
         margin: 50px 50px;
         padding: 50px 50px;
@@ -720,7 +727,49 @@ about-section
     
 }
 
+/* =========================
+   quote section
+========================= */
 
+.quote{
+
+    z-index: -10;
+    height: 50vh;
+    position: relative;
+    margin-top: 1em;
+    padding: 50px 100px;
+    background-color: #00e676;
+}
+
+.quote-text{
+    
+    
+    padding: 100px 0;
+    color: black;
+    font-family: Satoshi,  sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 1.5em;
+    width: 100%;
+
+}
+.highlight{
+    padding: 0 10px;
+    background-color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    color:black;
+}
+
+
+
+
+@media (max-width: 732px) {
+    .quote-text{
+        font-size: 2em;
+    }
+    
+}
 
 
 /* =========================
@@ -728,7 +777,12 @@ Projects Section
 ========================= */
 
 .projects{
+    height:auto;
   padding: 100px 100px;
+  border-radius: 80px 80px 0 0;
+  background-color: #f5f2f2;
+
+   box-shadow:0px 0px 10px 20px rgba(0, 0, 0, 0.139);
 }
 
 .projects h2{
@@ -742,7 +796,7 @@ Projects Section
   gap: 20px;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding: 100px 0;
 }
 
 
@@ -754,14 +808,16 @@ Projects Section
   background: #fff;
   border-radius: 30px;
   border: 2px solid black;
-  box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.08);
+  
   font-family: "Poppins", sans-serif;
   animation: translateY(0) 0.5s ease-in-out;
 
 }
 .projects-container:hover{
   transform: translateY(-10px) translateX(-2px);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  box-shadow:10px 10px 0px rgb(0, 0, 0);
+
 }
 
 .project-image {
@@ -813,14 +869,20 @@ Projects Section
 ========================= */
 
 .contact{
+
+    position: relative;
+    z-index: 10;
+
+    margin-top: -80px;
+    position: relative;
+    width: 100%;
     padding: 50px 0px 0px 100px;
-    background-color: white;
+    background-color: black;
+    color: white;
     border-radius:80px 80px 0 0;
-    border: 1px solid #c7f0b5;
+    
+    box-shadow:0px 0px 10px 20px rgba(0, 0, 0, 0.08);
 } 
-.highlight{
-    color: #a5e889;
-}
 .brief-intro{
     font-size: 1em;
     line-height: 1.5;
@@ -832,6 +894,16 @@ Projects Section
 .socials {
     display: flex;
     gap: 25px;
+}
+
+.socials a img{
+    height: 40px;
+    text-align: center;
+}
+
+.socials a:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -859,14 +931,16 @@ Projects Section
 Footer 
 ========================= */
 .footer {
+    
     background-color: #f5f2f2;
     width: 100%;
     border-top: 1px solid #d9d9d9;
     background: #fff;
+    color: white;
 }
 .footer a{
     text-decoration: none;
-    color: black;   
+    color: white;   
 }
 .footer a:hover{
     transition: all 0.3s ease-in-out;
@@ -879,6 +953,7 @@ Footer
     min-height: 155px;
 
     padding: 0 10px;
+    color: white;
 }
 
 .brief-intro{
@@ -887,7 +962,22 @@ Footer
     font-weight: 600;
     line-height: 2em;
     width: 600px;
-    color: #4f4c4c;
+    color: white;
+}
+.mail-btn{
+    font-weight: 600;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #a5e889 50% ,white 50% );
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+.mail-btn:hover{
+    transform: translateY(-5px);
+   background-position: left bottom;
+   transition: all .5s ease-out;
 }
 
 /* =========================
@@ -912,13 +1002,13 @@ Footer
 ========================= */
 
 .footer-connect {
-    display: grid;
-    grid-template-columns: 1.2fr 1fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     border-right: 1px solid #d9d9d9;
 
-    padding: 30px 40px 40px 0; 
 }
 
 .footer-intro h3,
@@ -960,7 +1050,6 @@ Footer
 }
 
 .contact-item a {
-    color: #111;
     text-decoration: none;
     transition: all 0.3s ease;
     transition: all 0.3s ease-in-out;
@@ -994,7 +1083,6 @@ Footer
 }
 
 .footer-links a {
-    color: #111;
     text-decoration: none;
 
     font-size: 15px;
@@ -1006,13 +1094,14 @@ Footer
 
 .footer-links a:hover {
     transform: translateY(-5px);
+    transition: all .5s ease-out;
     color: green;
 }
 
 footer p{
     
     font-size: 14px;
-    color: #666;
+    color: white;
     margin-top: 20px;
     width: 100%;
 }
@@ -1030,7 +1119,7 @@ footer p{
     padding: 10px 20px;
     margin-right: 20px;
     font-size: 14px;
-    color: #666;
+    color: white;
     width: 100%;
     
 }
