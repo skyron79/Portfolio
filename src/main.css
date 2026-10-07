@@ -165,17 +165,21 @@ nav{
 
 .get-in-touch{
     font-weight: 600;
-    color: #5fae56;
+    color: #00E676;
     padding: 10px 20px;
     border-radius: 100px;
-    border: 1px solid #5fae56;
-    background-color: white;
-    transition: all 0.3s ease;
+    border: 1px solid #00E676;
+   background: linear-gradient(to right, #00E676 50% ,white 50% );
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
 }
 .get-in-touch:hover{
-    transition: all 0.3s ease-in-out;
-    background-color: #5fae56;
-    color: white;
+
+    transform: translateY(-5px);
+    background-position: left bottom;
+    transition: all .3s ease-out;
+    color: black;
 }
 
 /* ========================= 
@@ -216,7 +220,7 @@ Hero Section
 .hero-content {
     position: relative;
     z-index: 10;
-    width: 80%;
+    width: 100%;
     padding-left: 100px;
     margin-right: 60vw;
 }
@@ -753,9 +757,14 @@ about-section
     width: 100%;
 
 }
+
+.quote-text .highlight{
+   background-color: white;
+}
+
 .highlight{
     padding: 0 10px;
-    background-color: white;
+    background-color: #00E676;
     font-weight: 700;
     border-radius: 10px;
     color:black;
@@ -969,7 +978,7 @@ Footer
     color: black;
     padding: 10px 20px;
     border-radius: 100px;
-    background: linear-gradient(to right, #a5e889 50% ,white 50% );
+    background: linear-gradient(to right, #00E676 50% ,white 50% );
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
@@ -978,6 +987,7 @@ Footer
     transform: translateY(-5px);
    background-position: left bottom;
    transition: all .5s ease-out;
+    box-shadow: 5px 5px 0px white;
 }
 
 /* =========================
