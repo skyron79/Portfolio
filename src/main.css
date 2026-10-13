@@ -73,9 +73,7 @@ a{
 body{
    
     overflow-x: hidden;
-   
-    /* background-image: linear-gradient(rgba(0, 255, 0, 0.128) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 255, 0, 0.055) .1em, transparent .1em);
-    background-size: 3em 3em; */
+    background-color: white;
   
 }
 
@@ -146,18 +144,17 @@ nav{
 }
 .nav-links li:hover{
     transform: translateY(-5px);
-    color: green;
+    color: #00e676;
 }
 .nav-links a{
     text-decoration: none;
-    color: rgb(97, 94, 94);
     font-family: Satoshi, sans-serif;
     font-weight: 600;
     font-size: 1.1em;
 }
 .nav-links a:hover{
     transition: all 0.3s ease-in-out;
-    color: green;
+    color: #00e676;
 }
 
 .nav-links a.active{
@@ -646,7 +643,7 @@ about-section
 
 
 .bullet{
-    color: #a5e889;
+    color: #00e676;
     font-weight: 600;
     font-size: 0.8em;
     
@@ -662,7 +659,6 @@ about-section
     margin-top: 40px;
     font-family: poppins,  sans-serif;
     font-size: 1.1em;
-    font-weight: 600;
     line-height: 2em;
     width: 600px;
     color: #4f4c4c;
@@ -676,7 +672,7 @@ about-section
 }
 
 .icon-item{
-    border: 2px solid  #c7f0b5;
+    border: 2px solid  #00e676;
     border-radius: 20px;
     width: 33%;
 
@@ -787,12 +783,12 @@ Projects Section
 ========================= */
 
 .projects{
-height:auto;
+  height:auto;
   padding: 100px 100px;
   border-radius: 80px 80px 0 0;
   background-color: white;
-
-   box-shadow:0px 0px 10px 20px rgba(0, 0, 0, 0.139);
+  box-shadow: 0 -20px 20px -0px rgba(0, 0, 0, 0.103);
+ 
 }
 
 .projects h2{
@@ -885,12 +881,9 @@ height:auto;
 ========================= */
 
 .contact{
-
+    bottom: -100px;
     position: relative;
-    z-index: 10;
-
     margin-top: -80px;
-    position: relative;
     width: 100%;
     padding: 50px 0px 0px 100px;
     background-color: black;
@@ -951,7 +944,7 @@ Footer
     background-color: #f5f2f2;
     width: 100%;
     border-top: 1px solid #d9d9d9;
-    background: #fff;
+    background: white;
     color: white;
 }
 .footer a{
@@ -1332,12 +1325,11 @@ img {
 }
 
 .project-cta span {
-    transition: transform 0.2s ease;
+    transition: color 0.3s ease;
 }
 
 .project-cta:hover span {
     color: #00E676;
-    transform: translateX(4px);
 }
 
 
@@ -1469,6 +1461,13 @@ img {
     color: #454545;
 }
 
+.next-project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: end;
+}
 
 /* Stage image */
 

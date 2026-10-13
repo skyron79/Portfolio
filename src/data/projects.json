@@ -1,274 +1,68 @@
-
 [
   {
-    "_id": "6ac74967995b7a7dea8bcc35",
-    "index": 0,
-    "guid": "3bf921c7-0fdf-4a52-baa1-2ccba6d9fb16",
-    "isActive": false,
-    "balance": "$3,039.61",
-    "picture": "http://placehold.it/32x32",
-    "age": 23,
-    "eyeColor": "green",
-    "name": "Obrien Cox",
-    "gender": "male",
-    "company": "VORATAK",
-    "email": "obriencox@voratak.com",
-    "phone": "+1 (973) 429-3743",
-    "address": "321 Ellery Street, Sunbury, Michigan, 9624",
-    "about": "Irure ea incididunt laboris anim tempor ex duis. Labore minim aliqua labore elit eiusmod eiusmod sunt exercitation enim nostrud occaecat eiusmod anim proident. Tempor id tempor voluptate anim.\r\n",
-    "registered": "2021-10-26T02:12:11 -02:00",
-    "latitude": -49.415357,
-    "longitude": -159.952945,
-    "tags": [
-      "deserunt",
-      "et",
-      "anim",
-      "commodo",
-      "laborum",
-      "qui",
-      "id"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Ray Newton"
-      },
-      {
-        "id": 1,
-        "name": "Norman Wooten"
-      },
-      {
-        "id": 2,
-        "name": "Sheryl Gray"
-      }
-    ],
-    "greeting": "Hello, Obrien Cox! You have 10 unread messages.",
-    "favoriteFruit": "apple"
-  },
-  {
-    "_id": "6ac74967674220284f9aff9c",
-    "index": 1,
-    "guid": "09a6413f-7486-4c75-a489-4d83026ff0e5",
-    "isActive": true,
-    "balance": "$1,621.06",
-    "picture": "http://placehold.it/32x32",
-    "age": 31,
-    "eyeColor": "brown",
-    "name": "Chrystal Shepard",
-    "gender": "female",
-    "company": "MOTOVATE",
-    "email": "chrystalshepard@motovate.com",
-    "phone": "+1 (859) 428-2220",
-    "address": "223 Underhill Avenue, Jenkinsville, District Of Columbia, 9112",
-    "about": "Nostrud eu dolor occaecat ipsum tempor pariatur dolor fugiat aute ipsum eu id aliqua. Dolore pariatur dolor amet mollit sint eiusmod eu in nostrud esse. Laborum officia quis esse incididunt quis quis nisi nisi laborum laboris. Dolor cillum dolor ipsum dolor ut ullamco ullamco aliquip dolore ipsum sit pariatur.\r\n",
-    "registered": "2016-05-25T03:26:28 -02:00",
-    "latitude": 10.652098,
-    "longitude": -96.505143,
-    "tags": [
-      "ex",
-      "adipisicing",
-      "ad",
-      "ullamco",
-      "velit",
-      "id",
-      "cillum"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Shelton Hunter"
-      },
-      {
-        "id": 1,
-        "name": "Duffy Reese"
-      },
-      {
-        "id": 2,
-        "name": "Carpenter Merrill"
-      }
-    ],
-    "greeting": "Hello, Chrystal Shepard! You have 9 unread messages.",
-    "favoriteFruit": "strawberry"
-  },
-  {
-    "_id": "6ac74967766868a1e927f11f",
-    "index": 2,
-    "guid": "bfc55d2c-b282-46b7-af5b-00232c3e2d4a",
-    "isActive": true,
-    "balance": "$1,438.41",
-    "picture": "http://placehold.it/32x32",
-    "age": 40,
-    "eyeColor": "green",
-    "name": "Lawrence Burton",
-    "gender": "male",
-    "company": "VICON",
-    "email": "lawrenceburton@vicon.com",
-    "phone": "+1 (885) 402-3820",
-    "address": "636 Conover Street, Corinne, Indiana, 5416",
-    "about": "Aute id consequat irure cillum anim proident adipisicing sit minim voluptate tempor. Ex id amet aliqua pariatur eiusmod excepteur commodo sit occaecat cupidatat enim dolore aliquip eu. Occaecat voluptate irure do non minim sunt. Amet nisi eu irure ipsum pariatur ullamco enim tempor tempor id exercitation incididunt nisi. Velit consequat officia et nostrud.\r\n",
-    "registered": "2020-06-22T06:52:52 -02:00",
-    "latitude": 85.473192,
-    "longitude": 44.352012,
-    "tags": [
-      "velit",
-      "magna",
-      "eiusmod",
-      "excepteur",
-      "qui",
-      "cillum",
-      "aute"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Blanche Mcneil"
-      },
-      {
-        "id": 1,
-        "name": "Helene Rivas"
-      },
-      {
-        "id": 2,
-        "name": "Lewis Spence"
-      }
-    ],
-    "greeting": "Hello, Lawrence Burton! You have 5 unread messages.",
-    "favoriteFruit": "apple"
-  },
-  {
-    "_id": "6ac74967c27f9533a1e03126",
-    "index": 3,
-    "guid": "b2eefeaf-b5a9-4ba2-a60a-488e212526b3",
-    "isActive": false,
-    "balance": "$3,127.46",
-    "picture": "http://placehold.it/32x32",
-    "age": 23,
-    "eyeColor": "blue",
-    "name": "Alford Douglas",
-    "gender": "male",
-    "company": "KROG",
-    "email": "alforddouglas@krog.com",
-    "phone": "+1 (950) 409-3826",
-    "address": "844 Montauk Avenue, Makena, Connecticut, 8068",
-    "about": "Incididunt amet culpa et in proident eu consectetur. Lorem reprehenderit laboris irure amet anim aliqua qui dolor laboris. Enim veniam ut consectetur ex est. Sunt laboris Lorem incididunt est. Exercitation dolor anim excepteur exercitation dolor aliqua. Laboris aliqua sint duis ex esse quis labore. Esse voluptate aliquip amet mollit enim ullamco quis eiusmod ipsum ex.\r\n",
-    "registered": "2024-09-22T02:11:55 -02:00",
-    "latitude": 79.356423,
-    "longitude": 139.067526,
-    "tags": [
-      "qui",
-      "amet",
-      "sint",
-      "in",
-      "aute",
-      "non",
-      "sunt"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Consuelo Jones"
-      },
-      {
-        "id": 1,
-        "name": "Earline Norris"
-      },
-      {
-        "id": 2,
-        "name": "Shari Anderson"
-      }
-    ],
-    "greeting": "Hello, Alford Douglas! You have 3 unread messages.",
-    "favoriteFruit": "banana"
-  },
-  {
-    "_id": "6ac74967abdf7b0f0b341127",
-    "index": 4,
-    "guid": "208a956f-4340-4953-bf03-3c57bbce85c3",
-    "isActive": false,
-    "balance": "$2,290.34",
-    "picture": "http://placehold.it/32x32",
-    "age": 36,
-    "eyeColor": "green",
-    "name": "Angeline Valentine",
-    "gender": "female",
-    "company": "ZENTILITY",
-    "email": "angelinevalentine@zentility.com",
-    "phone": "+1 (829) 500-2550",
-    "address": "954 Hubbard Place, Gorham, Delaware, 9155",
-    "about": "Ut ex sint mollit tempor ut laboris consectetur nostrud. Tempor sint nulla Lorem cillum nisi incididunt exercitation sit consequat aliquip elit consequat anim quis. Cupidatat magna ad duis est veniam ad proident ex minim et ipsum qui.\r\n",
-    "registered": "2025-11-01T02:40:40 -01:00",
-    "latitude": 17.784615,
-    "longitude": 121.079682,
-    "tags": [
-      "tempor",
-      "mollit",
-      "eu",
-      "anim",
-      "do",
-      "dolor",
-      "consectetur"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Chen Vega"
-      },
-      {
-        "id": 1,
-        "name": "Skinner Rasmussen"
-      },
-      {
-        "id": 2,
-        "name": "Juarez Herrera"
-      }
-    ],
-    "greeting": "Hello, Angeline Valentine! You have 8 unread messages.",
-    "favoriteFruit": "banana"
-  },
-  {
-    "_id": "6ac749677778d9a28f4203f1",
-    "index": 5,
-    "guid": "db2d79cc-4bf6-433b-b002-dfa01b6b18da",
-    "isActive": false,
-    "balance": "$2,806.80",
-    "picture": "http://placehold.it/32x32",
-    "age": 33,
-    "eyeColor": "blue",
-    "name": "Moody Abbott",
-    "gender": "male",
-    "company": "TELEPARK",
-    "email": "moodyabbott@telepark.com",
-    "phone": "+1 (852) 493-2641",
-    "address": "500 Billings Place, Ironton, Utah, 6495",
-    "about": "Velit esse amet elit do incididunt ea eiusmod excepteur voluptate veniam. Laboris minim officia et amet tempor commodo ea. Commodo anim officia cillum pariatur.\r\n",
-    "registered": "2016-08-17T07:37:48 -02:00",
-    "latitude": 29.486329,
-    "longitude": -93.686734,
-    "tags": [
-      "ipsum",
-      "duis",
-      "adipisicing",
-      "fugiat",
-      "veniam",
-      "anim",
-      "sunt"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Dickerson Morrison"
-      },
-      {
-        "id": 1,
-        "name": "Adele Porter"
-      },
-      {
-        "id": 2,
-        "name": "Herrera Webster"
-      }
-    ],
-    "greeting": "Hello, Moody Abbott! You have 1 unread messages.",
-    "favoriteFruit": "apple"
-  }
-]
+  "id": 1,
+  "name": "Malukayi Cosmetics",
+  "cover": "../assets/projects/malukayi.png",
+  "thumbnail": "../assets/projects/banner malukayi.png",
+  "team": [
+    {
+      "team_id": 1,
+      "name": "Tyron Zinga"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "role": "Front-end Developer"
+    },
+    {
+      "id": 2,
+      "role": "UX/UI Designer"
+    }
+  ],
+  "year": 2025,
+  "description": "Malukayi Cosmetics is a beauty and skincare brand focused on natural ingredients and inclusive beauty products for different skin tones and hair textures.",
+  "challenges": "The main challenge was to create a digital experience that reflected the brand's identity while making its products easy to discover. The website needed to balance a premium aesthetic with intuitive navigation and a clear presentation of its skincare, body care, and hair care collections.",
+  "solutions": "I designed and developed a clean, modern website inspired by the brand's identity and values. The interface uses a warm, minimal visual style, clear product categories, and intuitive navigation to help users explore the collections. The structure was designed to support a user-friendly shopping experience while communicating the brand's focus on natural ingredients and inclusive beauty.",
+  "results": "The project resulted in a cohesive website concept that brings the brand's products and identity together in one digital experience. The design establishes a foundation for presenting the product collections, communicating the brand story, and creating a more accessible shopping experience."
+},
+{
+  "id": 2,
+  "name": "Flappy Bird",
+  "cover": "../assets/projects/flappy_bird.png",
+  "thumbnail": null,
+  "team": [
+    {
+      "team_id": 1,
+      "name": "Tyron Zinga"
+    },
+    {
+      "team_id": 2,
+      "name": "Jonas Van den Bossche",
+      "website": "https://jonasvandenbossche.be"
+    },
+    {
+      "team_id": 3,
+      "name": "Nick Vandervorst",
+      "website": "https://vandervorstnick.be/portfolio/index.php#projects"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "role": "Game Developer"
+    },
+    {
+      "id": 2,
+      "role": "UI/UX Designer"
+    }
+  ],
+  "year": 2025,
+  "description": "A collaborative game development project inspired by the original Flappy Bird. The goal was to recreate its simple yet challenging gameplay while exploring game mechanics, player interaction, and feedback.",
+  "challenges": "The main challenge was to recreate responsive and intuitive gameplay while maintaining the balance between simplicity and difficulty. The project also required coordinating different elements of the game, including player controls, obstacles, collision detection, and score tracking.",
+  "solutions": "We developed a playable Flappy Bird-inspired game with responsive controls, moving obstacles, collision detection, and a scoring system. We focused on recreating the original gameplay loop while implementing the core mechanics and visual feedback needed to keep the experience engaging.",
+  "results": "The project resulted in a playable game prototype that demonstrates our understanding of game mechanics, interaction design, and collaborative development. It provided practical experience in translating an existing game concept into a functional digital experience."
+}
+  
 
+]
