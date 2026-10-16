@@ -2,23 +2,21 @@
   {
   "id": 1,
   "name": "Malukayi Cosmetics",
-  "cover": "../assets/projects/malukayi.png",
-  "thumbnail": "../assets/projects/banner malukayi.png",
+  "cover": "../../assets/projects/malukayi.png",
+  "thumbnail": "../../assets/projects/banner malukayi.png",
   "team": [
-    {
+     {
       "team_id": 1,
-      "name": "Tyron Zinga"
+      "name": "Tyron Zinga",
+      "website": "https://www.linkedin.com/in/tyron-zinga-7478b7209/"
     }
   ],
   "roles": [
     {
       "id": 1,
-      "role": "Front-end Developer"
-    },
-    {
-      "id": 2,
       "role": "UX/UI Designer"
     }
+    
   ],
   "year": 2025,
   "description": "Malukayi Cosmetics is a beauty and skincare brand focused on natural ingredients and inclusive beauty products for different skin tones and hair textures.",
@@ -28,13 +26,14 @@
 },
 {
   "id": 2,
-  "name": "Flappy Bird",
-  "cover": "../assets/projects/flappy_bird.png",
+  "name": "Flappy Birds",
+  "cover": "../../assets/projects/flappy_bird.png",
   "thumbnail": null,
   "team": [
-    {
+     {
       "team_id": 1,
-      "name": "Tyron Zinga"
+      "name": "Tyron Zinga",
+       "website": "https://www.linkedin.com/in/tyron-zinga-7478b7209/"
     },
     {
       "team_id": 2,
@@ -62,6 +61,72 @@
   "challenges": "The main challenge was to recreate responsive and intuitive gameplay while maintaining the balance between simplicity and difficulty. The project also required coordinating different elements of the game, including player controls, obstacles, collision detection, and score tracking.",
   "solutions": "We developed a playable Flappy Bird-inspired game with responsive controls, moving obstacles, collision detection, and a scoring system. We focused on recreating the original gameplay loop while implementing the core mechanics and visual feedback needed to keep the experience engaging.",
   "results": "The project resulted in a playable game prototype that demonstrates our understanding of game mechanics, interaction design, and collaborative development. It provided practical experience in translating an existing game concept into a functional digital experience."
+}, 
+{
+  "id": 3,
+  "name": "Fairshare",
+  "cover": "../../assets/projects/malukayi.png",
+  "thumbnail": "../../assets/projects/banner malukayi.png",
+  "team": [
+    {
+      "team_id": 1,
+      "name": "Tyron Zinga",
+       "website": "https://www.linkedin.com/in/tyron-zinga-7478b7209/"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "role": "Front-end Developer"
+    },
+    {
+      "id": 2,
+      "role": "UX/UI Designer"
+    }
+  ],
+  "year": 2025,
+  "description": "Malukayi Cosmetics is a beauty and skincare brand focused on natural ingredients and inclusive beauty products for different skin tones and hair textures.",
+  "challenges": "The main challenge was to create a digital experience that reflected the brand's identity while making its products easy to discover. The website needed to balance a premium aesthetic with intuitive navigation and a clear presentation of its skincare, body care, and hair care collections.",
+  "solutions": "I designed and developed a clean, modern website inspired by the brand's identity and values. The interface uses a warm, minimal visual style, clear product categories, and intuitive navigation to help users explore the collections. The structure was designed to support a user-friendly shopping experience while communicating the brand's focus on natural ingredients and inclusive beauty.",
+  "results": "The project resulted in a cohesive website concept that brings the brand's products and identity together in one digital experience. The design establishes a foundation for presenting the product collections, communicating the brand story, and creating a more accessible shopping experience."
+},
+ {
+  "id":4,
+  "name": "Carevoice",
+  "cover": "  ../../assets/projects/carevoice.png",
+  "thumbnail": "../assets/projects/banner malukayi.png",
+  "team": [
+     {
+      "team_id": 1,
+      "name": "Tyron Zinga",
+       "website": "https://www.linkedin.com/in/tyron-zinga-7478b7209/"
+    },
+    {
+      "team_id": 2,
+      "name": "Miguel Celen",
+      "website": "https://miguelcelen.be/"
+    },
+    {
+      "team_id": 3,
+      "name": "Sandra Koizol",
+      "website": "https://sandra-koziol-portfolio.vercel.app/index.html"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "role": "Front-end Developer"
+    },
+    {
+      "id": 2,
+      "role": "UX/UI Designer"
+    }
+  ],
+  "year": 2025,
+  "description": "Malukayi Cosmetics is a beauty and skincare brand focused on natural ingredients and inclusive beauty products for different skin tones and hair textures.",
+  "challenges": "The main challenge was to create a digital experience that reflected the brand's identity while making its products easy to discover. The website needed to balance a premium aesthetic with intuitive navigation and a clear presentation of its skincare, body care, and hair care collections.",
+  "solutions": "I designed and developed a clean, modern website inspired by the brand's identity and values. The interface uses a warm, minimal visual style, clear product categories, and intuitive navigation to help users explore the collections. The structure was designed to support a user-friendly shopping experience while communicating the brand's focus on natural ingredients and inclusive beauty.",
+  "results": "The project resulted in a cohesive website concept that brings the brand's products and identity together in one digital experience. The design establishes a foundation for presenting the product collections, communicating the brand story, and creating a more accessible shopping experience."
 }
   
 
