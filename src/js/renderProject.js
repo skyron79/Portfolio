@@ -47,6 +47,9 @@ if(project) {
     document.querySelector("#project-challenge").innerHTML = project.challenges;
     document.querySelector("#project-results").innerHTML = project.results;
 
+    document.querySelector("#thumbnail").src = project.thumbnail;
+    document.querySelector("#thumbnail").alt = `${project.name} project preview`;
+
     console.log("Project found:", project);
 
 }else {

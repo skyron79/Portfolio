@@ -85,16 +85,16 @@
     }
   ],
   "year": 2025,
-  "description": "Malukayi Cosmetics is a beauty and skincare brand focused on natural ingredients and inclusive beauty products for different skin tones and hair textures.",
-  "challenges": "The main challenge was to create a digital experience that reflected the brand's identity while making its products easy to discover. The website needed to balance a premium aesthetic with intuitive navigation and a clear presentation of its skincare, body care, and hair care collections.",
-  "solutions": "I designed and developed a clean, modern website inspired by the brand's identity and values. The interface uses a warm, minimal visual style, clear product categories, and intuitive navigation to help users explore the collections. The structure was designed to support a user-friendly shopping experience while communicating the brand's focus on natural ingredients and inclusive beauty.",
-  "results": "The project resulted in a cohesive website concept that brings the brand's products and identity together in one digital experience. The design establishes a foundation for presenting the product collections, communicating the brand story, and creating a more accessible shopping experience."
+  "description": "A UX/UI exercise focused on creating a digital platform for students who live in shared housing. The goal was to create a user-friendly interface that allows students to manage their shared living arrangements, including tasks, expenses, and communication.",
+  "challenges": "this challenge was brought to us by our tutors to help us learn the principles of UX/UI design and research. The main challenge was to create a digital platform that addresses the needs of students living in shared housing while providing an intuitive and visually appealing interface.",
+  "solutions": "We conducted user research to understand the pain points and needs of students living in shared housing. Based on our findings, we designed a platform that allows users to manage tasks, track expenses, and communicate with their housemates. The interface was designed to be clean, intuitive, and visually appealing, with a focus on usability and accessibility.",
+  "results": "Our fictive service, Fairshare, resulted in a functional prototype that demonstrates our understanding of UX/UI design principles and user-centered design. The platform provides a practical solution for students living in shared housing, allowing them to manage their living arrangements more effectively."
 },
  {
   "id":4,
   "name": "Carevoice",
   "cover": "  ../../assets/projects/carevoice.png",
-  "thumbnail": "../assets/projects/banner malukayi.png",
+  "thumbnail": "../assets/projects/carevoice_banner.png",
   "team": [
      {
       "team_id": 1,
@@ -123,10 +123,10 @@
     }
   ],
   "year": 2025,
-  "description": "Malukayi Cosmetics is a beauty and skincare brand focused on natural ingredients and inclusive beauty products for different skin tones and hair textures.",
-  "challenges": "The main challenge was to create a digital experience that reflected the brand's identity while making its products easy to discover. The website needed to balance a premium aesthetic with intuitive navigation and a clear presentation of its skincare, body care, and hair care collections.",
-  "solutions": "I designed and developed a clean, modern website inspired by the brand's identity and values. The interface uses a warm, minimal visual style, clear product categories, and intuitive navigation to help users explore the collections. The structure was designed to support a user-friendly shopping experience while communicating the brand's focus on natural ingredients and inclusive beauty.",
-  "results": "The project resulted in a cohesive website concept that brings the brand's products and identity together in one digital experience. The design establishes a foundation for presenting the product collections, communicating the brand story, and creating a more accessible shopping experience."
+  "description": "Carevoice a business development project given to us by The Cronos group. goal was to make a fully functional businessplan and concept for helping nurses and doctors manegeing their paperwork and patient data.",
+  "challenges": "This challenge given to us by cronos group was to help us grow our skills in bussiness development and using/ implementing current trends such as AI in our products.",
+  "solutions": "We conducted market research and user interviews to understand the needs of nurses and doctors. Based on our findings, we developed a comprehensive business plan and concept that addresses their pain points and provides a solution for managing paperwork and patient data. The plan includes a detailed implementation strategy and a timeline for rollout aswell as a voicecommand AI that tracks urgent tasks.",
+  "results": "This business development project resulted in praises from ouur tutors and the cronos group for our innovative approach to solving the challenges faced by healthcare professionals. The project provided valuable experience in business development, market research, and user-centered design."
 }
   
 
