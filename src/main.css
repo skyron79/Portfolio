@@ -4,6 +4,7 @@
 
 }
 
+
 /*media queries*/
 @media ( max-width: 732px) {
     .hero{
@@ -71,7 +72,6 @@ a{
 }
 
 body{
-   
     overflow-x: hidden;
     background-color: white;
   
@@ -765,8 +765,9 @@ about-section
     color:black;
 }
 .main-content{
+    position: relative;
     background-color: #00E676;
-    z-index: 10;
+    z-index: 50;
 }
 
 
@@ -799,9 +800,11 @@ Projects Section
 
 .project-preview {
     
-    
+    width: 50vw;
+    height: 60vh;
     position: absolute;
     inset: 0;
+   
 
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -877,10 +880,13 @@ transition:background-position 0.5s ease-in-out;
     padding: 50px 0px 0px 100px;
     background-color: black;
     color: white;
-    border-radius:80px 80px 0 0;
+    z-index: -10 ;  
+    border-radius: 100px 100px 0 0;
+    box-shadow: inset 0px 20px 30px -0px rgba(0, 0, 0, 0.203);
     
-    box-shadow:0px 0px 10px 20px rgba(0, 0, 0, 0.08);
+    
 } 
+
 .brief-intro{
     font-size: 1em;
     line-height: 1.5;
@@ -974,9 +980,11 @@ Footer
 }
 .mail-btn:hover{
     transform: translateY(-5px);
-   background-position: left bottom;
-   transition: all .5s ease-out;
-    box-shadow: 5px 5px 0px white;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+    box-shadow: 3px 3px 0px #00e6774e;
+
+    
 }
 
 /* =========================
@@ -1094,7 +1102,7 @@ Footer
 .footer-links a:hover {
     transform: translateY(-5px);
     transition: all .5s ease-out;
-    color: green;
+    color: #00e676;
 }
 
 footer p{
@@ -1125,7 +1133,7 @@ footer p{
 .footer-bottom a:hover{
     transform: translateY(-5px);
     transition: all 0.3s ease-in-out;
-    color: green;
+    color: #00e676;
 }
 .footer-container{
     display: grid;

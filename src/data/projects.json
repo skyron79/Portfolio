@@ -2,8 +2,8 @@
   {
   "id": 1,
   "name": "Malukayi Cosmetics",
-  "cover": "../../assets/projects/malukayi.png",
-  "thumbnail": "../../assets/projects/banner malukayi.png",
+  "cover": "../assets/projects/malukayi.png",
+  "thumbnail": "../assets/projects/banner malukayi.png",
   "team": [
      {
       "team_id": 1,
@@ -27,8 +27,8 @@
 {
   "id": 2,
   "name": "Flappy Birds",
-  "cover": "../../assets/projects/flappy_bird.png",
-  "thumbnail": null,
+  "cover": "../assets/projects/flappy_bird.png",
+  "thumbnail": "../assets/projects/MP_flappybird.jpeg",
   "team": [
      {
       "team_id": 1,
@@ -43,7 +43,7 @@
     {
       "team_id": 3,
       "name": "Nick Vandervorst",
-      "website": "https://vandervorstnick.be/portfolio/index.php#projects"
+      "website": "https://vandervorstnick.be/portfolio/about.html"
     }
   ],
   "roles": [
@@ -57,7 +57,7 @@
     }
   ],
   "year": 2025,
-  "description": "A collaborative game development project inspired by the original Flappy Bird. The goal was to recreate its simple yet challenging gameplay while exploring game mechanics, player interaction, and feedback.",
+  "description": "A collaborative game development project inspired by the original Flappy Bird. The goal was to recreate its simple yet challenging gameplay while exploring game mechanics, player interaction, and different manners to make the game more challengeing.",
   "challenges": "The main challenge was to recreate responsive and intuitive gameplay while maintaining the balance between simplicity and difficulty. The project also required coordinating different elements of the game, including player controls, obstacles, collision detection, and score tracking.",
   "solutions": "We developed a playable Flappy Bird-inspired game with responsive controls, moving obstacles, collision detection, and a scoring system. We focused on recreating the original gameplay loop while implementing the core mechanics and visual feedback needed to keep the experience engaging.",
   "results": "The project resulted in a playable game prototype that demonstrates our understanding of game mechanics, interaction design, and collaborative development. It provided practical experience in translating an existing game concept into a functional digital experience."
@@ -66,7 +66,7 @@
   "id": 3,
   "name": "Fairshare",
   "cover": "../../assets/projects/malukayi.png",
-  "thumbnail": "../../assets/projects/banner malukayi.png",
+  "thumbnail": "../assets/projects/fairShare_banner.png",
   "team": [
     {
       "team_id": 1,
