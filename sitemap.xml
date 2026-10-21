@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-/** index **/ 
+    <!-- Homepage -->
+    <url>
+        <loc>https://portfolio-skyron79.vercel.app/</loc>
+    </url>
 
-<url>
-  <loc>https://portfolio-skyron79.vercel.app/</loc>
-</url>
+    <!-- Projects -->
+    <url>
+        <loc>https://portfolio-skyron79.vercel.app/project.html?id=1</loc>
+    </url>
+    <url>
+        <loc>https://portfolio-skyron79.vercel.app/project.html?id=2</loc>
+    </url>
+    <url>
+        <loc>https://portfolio-skyron79.vercel.app/project.html?id=3</loc>
+    </url>
+    <url>
+        <loc>https://portfolio-skyron79.vercel.app/project.html?id=4</loc>
+    </url>
 
-/** projecten **/
-<url>
-  <loc>https://portfolio-skyron79.vercel.app/project.html?id=1</loc>
-</url>
-
-<url>
-  <loc>https://portfolio-skyron79.vercel.app/project.html?id=2</loc>
-</url>
-
-<url>
-  <loc>https://portfolio-skyron79.vercel.app/project.html?id=3</loc>
-</url>
-
-<url>
-  <loc>https://portfolio-skyron79.vercel.app/project.html?id=4</loc>
-</url>
+</urlset>
