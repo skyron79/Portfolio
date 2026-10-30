@@ -214,7 +214,40 @@ const runner = Runner.create();
 
 Runner.run(runner, engine);
 
-// projecrt management //
 
-console.log(projects);
+// =========================
+// carousel
+// =========================
+const categories = document.querySelectorAll(".also-me-category");
+const carousel = document.querySelector(".also-me-carousel");
+const track = document.querySelector(".also-me-track");
+
+function changeImage(index) {
+  // Move the track vertically
+  const imageHeight = carousel.clientHeight;
+
+  track.style.transform = `translateY(-${index * imageHeight}px)`;
+
+  // Update active category
+  categories.forEach((category, i) => {
+    category.classList.toggle("active", i === index);
+  });
+}
+
+// Hover and click support
+categories.forEach((category) => {
+  const index = Number(category.dataset.index);
+
+  category.addEventListener("mouseenter", () => {
+    changeImage(index);
+  });
+
+  category.addEventListener("click", () => {
+    changeImage(index);
+  });
+
+  category.addEventListener("focus", () => {
+    changeImage(index);
+  });
+});
 
