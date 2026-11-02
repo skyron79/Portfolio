@@ -3,21 +3,21 @@
 
     <!-- Homepage -->
     <url>
-        <loc>https://portfolio-skyron79.vercel.app/</loc>
+        <loc>www.tyronzna.com</loc>
     </url>
 
     <!-- Projects -->
     <url>
-        <loc>https://portfolio-skyron79.vercel.app/project.html?id=1</loc>
+        <loc>www.tyronzna.com/project.html?id=1</loc>
     </url>
     <url>
-        <loc>https://portfolio-skyron79.vercel.app/project.html?id=2</loc>
+        <loc>www.tyronzna.com/project.html?id=2</loc>
     </url>
     <url>
-        <loc>https://portfolio-skyron79.vercel.app/project.html?id=3</loc>
+        <loc>www.tyronzna.com/project.html?id=3</loc>
     </url>
     <url>
-        <loc>https://portfolio-skyron79.vercel.app/project.html?id=4</loc>
+        <loc>www.tyronzna.com/project.html?id=4</loc>
     </url>
 
 </urlset>
